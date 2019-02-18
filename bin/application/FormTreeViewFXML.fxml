@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="316.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FormTreeViewController">
+   <children>
+      <TreeView fx:id="myTreeView" layoutX="45.0" layoutY="23.0" onMouseClicked="#mouseClick" prefHeight="226.0" prefWidth="200.0" />
+      <Button layoutX="259.0" layoutY="23.0" mnemonicParsing="false" onAction="#AddTreeClick" prefHeight="59.0" prefWidth="107.0" text="Add Tree" />
+      <ListView fx:id="myList" layoutX="259.0" layoutY="99.0" prefHeight="157.0" prefWidth="131.0" />
+   </children>
+</AnchorPane>
